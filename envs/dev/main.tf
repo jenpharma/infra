@@ -1,3 +1,4 @@
+# jenpharma-dev environment configuration - managed via GitHub Actions CI/CD pipeline
 locals {
   project = "pharma"
   env     = "dev"
