@@ -1,16 +1,16 @@
 output "eso_role_arn" {
   description = "ARN of the External Secrets Operator IAM role"
-  value       = aws_iam_role.eso_role.arn
+  value       = module.iam.eso_role_arn
 }
 
 output "argocd_role_arn" {
   description = "ARN of the ArgoCD IAM role"
-  value       = aws_iam_role.argocd_role.arn
+  value       = module.iam.argocd_role_arn
 }
 
 output "alb_controller_role_arn" {
   description = "ARN of the AWS Load Balancer Controller IAM role"
-  value       = aws_iam_role.alb_controller_role.arn
+  value       = module.iam.alb_controller_role_arn
 }
 
 output "rds_endpoint" {
