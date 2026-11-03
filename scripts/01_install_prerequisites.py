@@ -18,9 +18,9 @@ from datetime import datetime
 # Default project root is two levels above this script (infra/scripts/ → project root)
 DEFAULT_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # Logging helpers
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 RED    = "\033[0;31m"
 GREEN  = "\033[0;32m"
 YELLOW = "\033[1;33m"
