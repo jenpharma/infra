@@ -31,7 +31,7 @@ module "eks" {
   instance_types = ["c7i-flex.large"]
   min_size       = 1
   max_size       = 2
-  desired_size   = 2
+  desired_size   = 1
 }
 
 module "rds" {
