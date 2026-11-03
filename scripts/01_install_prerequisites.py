@@ -91,7 +91,7 @@ log("kubectl, helm, and aws CLI found.")
 # ---------------------------------------------------------------------------
 print()
 print("============================================")
-print("  Zen Pharma -- Pre-requisites Installer")
+print("  Jen Pharma -- Pre-requisites Installer")
 print("============================================")
 print()
 print("  This script installs AWS Load Balancer Controller, ArgoCD, and")
