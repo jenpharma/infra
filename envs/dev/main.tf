@@ -1,4 +1,4 @@
-# jenpharma-dev environment configuration - managed via GitHub Actions CI/CD pipeline
+# jenpharma-dev environment configuration- Managed via GitHub Actions CI/CD pipeline
 locals {
   project = "pharma"
   env     = "dev"
@@ -30,7 +30,7 @@ module "eks" {
   instance_types     = ["t3.small"]
   min_size           = 1
   max_size           = 2
-  desired_size       = 1
+  desired_size       = 2
 }
 
 module "rds" {
